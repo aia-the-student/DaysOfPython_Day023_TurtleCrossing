@@ -18,7 +18,7 @@ class Player(Turtle):
         self.setpos(STARTING_POSITION)
 
     def move(self):
-        self.forward(20)
+        self.forward(MOVE_DISTANCE)
 
     def is_crossed(self):
         result = False
